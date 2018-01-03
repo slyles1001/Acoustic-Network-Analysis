@@ -12,11 +12,9 @@ rm(list=ls())
 setwd('/Users/stephenscherrer/Documents/Work/UH/Projects/dissertation work/Spacial Ecology/Acoustic-Network-Analysis/')
 
 #### Installing Principle Dependancies -----------------------------
-#install.packages('dplyr')
+install.packages('dplyr')
 library('dplyr')
-#install.packages('wes_anderson')
-library('wesanderson') # Functions: wes_palette
-source('/Users/stephenscherrer/Documents/Programming/R/utility_functions.R')
+source('./utility_functions.R')
 #install.packages('igraph')
 library('igraph')
 
