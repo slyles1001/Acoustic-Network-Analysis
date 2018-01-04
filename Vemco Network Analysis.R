@@ -9,7 +9,7 @@
 
 #### Clearing Workspace and Assigning Working Directory ------------
 rm(list=ls())
-setwd('/Users/stephenscherrer/Documents/Work/UH/Projects/dissertation work/Spacial Ecology/Acoustic-Network-Analysis/')
+setwd('/Users/ducttapecreator/Desktop/school/Networks/sharkstuff/Acoustic_Network')
 
 #### Installing Principle Dependancies -----------------------------
 install.packages('dplyr')
@@ -21,6 +21,7 @@ library('igraph')
 #### Loading and Cleaning Datafiles --------------------------------
 
 ### Loading data from saved dataframes
+tryCatch(load('vue_data.Rda'))
 load('vue_data.Rda')
 load('receiver_data.Rda')
 
